@@ -1,0 +1,4 @@
+1. limit x offset y: left first  y and take x entries-use only with order by clause
+2. if want just one value then make it as,
+	SELECT (SELECT distinct salary  FROM Employee ORDER BY salary DESC LIMIT 1 OFFSET 1) as SecondHighestSalary ;
+3. 

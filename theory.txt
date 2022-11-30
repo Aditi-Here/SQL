@@ -1,0 +1,7 @@
+limit clause: https://www.geeksforgeeks.org/sql-limit-clause/
+it is always use with order by clause
+it tells how much entries we want.
+limit x offset y - skip first y and take x entries
+
+------------------------------------------------------------------------
+
